@@ -1,0 +1,40 @@
+body{
+    background-color: #5c9ead;
+} 
+
+header{
+    background-image: url("img/Imagen_Cabecera.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#barra-menu>a{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#barra-menu>a:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black !important;
+}
+
+footer, h4{
+    background-color: #004352;
+    color: #5c9ead;
+}
+
+footer>div>a{
+    color: #5c9ead;
+}
+
+footer>div>a>img{
+    max-width: 15% !important;
+}
+
+button, #fondo{
+    background-color: #004352 !important;
+}
+
+button:hover{
+    border: solid 1px #004352 !important;
+    background-color: #5c9ead !important;
+}
